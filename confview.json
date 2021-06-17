@@ -1,0 +1,42 @@
+[
+    {
+        "widgetName" : "CCustomEdit",
+        "name" : "用户名",
+        "valueList" : [],
+        "value" : "",
+        "row" : 0,
+        "col" : 0,
+        "rowSpan" : 1,
+        "colSpan" : 1
+    },
+    {
+        "widgetName" : "CCustomComBox",
+        "name" : "密码",
+        "valueList" : ["111", "222", "3333"],
+        "value" : "111",
+        "row" : 0,
+        "col" : 1,
+        "rowSpan" : 1,
+        "colSpan" : 1
+    },
+    {
+        "widgetName" : "CCustomCheckbox",
+        "name" : "显示",
+        "valueList" : [],
+        "value" : true,
+        "row" : 1,
+        "col" : 0,
+        "rowSpan" : 1,
+        "colSpan" : 1
+    },
+    {
+        "widgetName" : "CCustomHLine",
+        "name" : "",
+        "valueList" : [],
+        "value" : "",
+        "row" : 2,
+        "col" : 0,
+        "rowSpan" : 1,
+        "colSpan" : -1
+    }
+]
