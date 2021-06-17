@@ -10,7 +10,7 @@ class CBaseConf
 {
 public:
     virtual void setSite(int iRow, int iCol, int iRowSpan, int iColSpan) { m_iRow = iRow; m_iCol = iCol; m_iRowSpan = iRowSpan; m_iColSpan = iColSpan; }
-    virtual std::tuple<int, int, int, int> getSite() { return std::make_tuple(m_iRow, m_iCol, m_iRowSpan, m_iRowSpan); }
+    virtual std::tuple<int, int, int, int> getSite() { return std::make_tuple(m_iRow, m_iCol, m_iRowSpan, m_iColSpan); }
     virtual void setWidgetType(const QString& strWidgetName) { m_strWidgetName = strWidgetName; }
     virtual QString getWidgetType() { return m_strWidgetName; }
     virtual void setValueList(const QStringList& strList) { Q_UNUSED(strList) }
