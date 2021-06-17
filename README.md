@@ -5,4 +5,4 @@ Qt根据Json文件生成对应的配置界面
 
 目前只做了edit、combobox、checkbox、hline; 后续可以自行扩展
 
-dll、lib请自行修改
+如需生成dll、lib请自行修改
